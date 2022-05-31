@@ -1,19 +1,30 @@
-const article = {
-    data1: [
+const articleName = {
+    mediaType1: [
         "kompas.com",
         "kompasiana.com",
+        "tribunnews.com",
+        "viva.co.id",
+        "suara.com",
+        "jawapos.com",
+        "pikiran-rakyat.com"
     ],
-};
+    mediaType2: [
+        "sindonews.com"
+    ]
 
+};
 const locationHref = window.location.href
 const searchParam = new URLSearchParams(window.location.search)
 
-const isValidArticleName = (name) => 
-    name.map((item) => locationHref.includes(item)).includes(true)
+// check if its article name is supported article
+const isValidArticleName = (name) => name.map((item) => locationHref.includes(item)).includes(true)
 
-
-if (isValidArticleName(article.data1) && searchParam.get('page') !== 'all') {
+if (isValidArticleName(articleName.mediaType1) && searchParam.get('page') !== 'all') {
     searchParam.set('page', 'all')
+    window.location.search = searchParam
+}
+else if(isValidArticleName(articleName.mediaType2) && searchParam.get('showpage') !== 'all') {
+    searchParam.set('showpage', 'all')
     window.location.search = searchParam
 }
 
