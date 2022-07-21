@@ -1,18 +1,4 @@
-const articleName = {
-    mediaType1: [
-        "kompas.com",
-        "kompasiana.com",
-        "tribunnews.com",
-        "viva.co.id",
-        "suara.com",
-        "jawapos.com",
-        "pikiran-rakyat.com"
-    ],
-    mediaType2: [
-        "sindonews.com"
-    ]
-
-};
+const articleName = require('./data/data.js')
 const locationHref = window.location.href
 const searchParam = new URLSearchParams(window.location.search)
 
