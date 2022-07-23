@@ -15,7 +15,7 @@ git clone https://github.com/afrizal0/remove-pagination.git
 ```bash
 1. Klik ikon dots di atas kanan
 2. Buka menu More Tools, lalu klik extension
-3. Aktifkan Developer mode, lalu klik Load unpackaged, pilih source code yang tadi sudah diunduh
+3. Aktifkan Developer mode, lalu klik Load unpackaged, pilih kode sumber yang tadi sudah diunduh
 4. Selamat anda terbebas dari paginasi 🎉🎉
 ```
 
