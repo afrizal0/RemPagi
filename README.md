@@ -1,9 +1,27 @@
+<h1 align=center>RemPagi❌</h1>
+<p align=center>Sebuah ekstensi ***Google Chrome*** untuk menghapus paginasi pada website berita kesukaan Anda</p>
 
-# Penghapus Paginasi
+<h2>Instalasi</h2>
+<p>Untuk menggunakan ekstensi ini kita perlu mengunduh *source code* ekstensi ini, dan memuatnya pada menu *extension* di Google Chrome</p>
+<h3>Unduh Source Code</h3>
 
-Sebuah ekstensi **Google Chrome** untuk menghapus paginasi pada website berita kesukaan Anda
+```bash
+git clone https://github.com/afrizal0/remove-pagination.git
+```
 
-## Bekerja pada
+<h3>Memuat Ekstensi</h3>
+
+```bash
+1. Klik ikon dots di atas kanan
+2. Buka menu *More Tools*, lalu klik *extension*
+3. Aktifkan Developer mode, lalu klik Load unpackaged, pilih source code yang tadi sudah diunduh
+4. Selamat anda terbebas dari paginasi 🎉🎉
+```
+
+<p>Jika penjelasan mengenai penginstalan belum jelas, silahkan ikuti video di bawah ini.
+![](img/gif/screen-capture%20(1).gif)
+
+<h2>Website yang didukung</h2>
 <img src="http://assets.kompasiana.com/items/album/2017/02/20/kompasiana-logo-58aa3012b8937321178c8163.png" width="180" >
 <img src="https://asset.kompas.com/data/2019/bca/images/logokompas.png" width="180">
 <img src="https://www.sobatku.co.id/wp-content/uploads/2019/03/tribunnews.png" width="180">
@@ -14,12 +32,7 @@ Sebuah ekstensi **Google Chrome** untuk menghapus paginasi pada website berita k
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Logo-sindonews.png?v=59" width="180">
 
 
-## Cara menggunakan
-![](img/gif/screen-capture%20(1).gif)
-> Buka terminal Anda
 
-```bash
-git clone https://github.com/afrizal0/remove-pagination.git
 ```
 
 
